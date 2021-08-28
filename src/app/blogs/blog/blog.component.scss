@@ -26,7 +26,10 @@
     overflow: hidden;
   }
   .btn-del{
-    float: right
+    float: right;
+  }
+  .btn-del:hover{
+    background-color: #e73030d8 !important;
   }
   .selected-star{
     color: #ffc107;

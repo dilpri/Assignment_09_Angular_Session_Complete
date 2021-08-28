@@ -1,4 +1,7 @@
 .blog-card {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
   display: inline-block;
   width: 400px;
   height: 460px;
@@ -13,6 +16,7 @@
 
   img {
     width: 384px;
+    height: 250px;
   }
 
   p {

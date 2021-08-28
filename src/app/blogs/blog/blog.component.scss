@@ -1,0 +1,30 @@
+.blog-card {
+  display: inline-block;
+  width: 400px;
+  height: 460px;
+  cursor: pointer;
+  padding: 8px;
+  box-shadow: 2px 0px 13px 7px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+
+  span {
+    color: grey;
+  }
+
+  img {
+    width: 384px;
+  }
+
+  p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .btn-del{
+    float: right
+  }
+  .selected-star{
+    color: #ffc107;
+  }
+}

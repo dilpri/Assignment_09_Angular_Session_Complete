@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="top-header d-flex justify-content-center m-2">
+        <h1>{{ currentBlog.title }}</h1>
+        <button class="btn btn-outline-danger" routerLink="/create-blog">Edit post</button>
+
+    </div>
+
+    <div class="div d-flex justify-content-end m-2">
+        <span> {{ currentBlog.date | date }} </span>
+
+    </div>
+    <div class="image-container d-flex justify-content-center mb-5">
+        <img [src]="currentBlog.imgUrl" alt="blog-cover">
+    </div>
+    <div class="desc-container">
+        <p>{{ currentBlog.description}} </p>
+    </div>
+</div>
